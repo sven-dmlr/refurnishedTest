@@ -2,14 +2,14 @@
 import "./style.css";
 import * as THREE from "three";
 import { OrbitControls } from "/node_modules/three/examples/jsm/controls/OrbitControls.js";
-import { TransformControls } from "three/addons/controls/TransformControls.js";
-import { STLExporter } from "three/addons/exporters/STLExporter.js";
+import { TransformControls } from "/node_modules/three/examples/jsm/controls/TransformControls.js";
+import { STLExporter } from "/node_modules/three/examples/jsm/exporters/STLExporter.js";
 import GUI from "lil-gui";
-import { LoopSubdivision } from "./LoopSubdivision.js";
+// import { LoopSubdivision } from "./LoopSubdivision.js";
 import { CSG } from "./THREE-CSGMesh/dist/client/CSGMesh.js";
-import { FontLoader } from 'three/addons/loaders/FontLoader.js';
-import { TextGeometry } from 'three/addons/geometries/TextGeometry.js';
-import { OBB } from 'three/addons/math/OBB.js';
+import { FontLoader } from '/node_modules/three/examples/jsm/loaders/FontLoader.js';
+import { TextGeometry } from '/node_modules/three/examples/jsm/geometries/TextGeometry.js';
+// import { OBB } from 'three/addons/math/OBB.js';
 
 //CONSTANT & VARIABLES
 
