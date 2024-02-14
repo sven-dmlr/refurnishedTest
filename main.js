@@ -188,7 +188,7 @@ landingPage.style.color = "#333";
 landingPage.style.backgroundColor = "white";
 
 const logoEmbed = document.createElement("embed");
-logoEmbed.src = "./assets/logo.svg";
+logoEmbed.src = "./public/assets/logo.svg";
 logoEmbed.style.position = "absolute";
 logoEmbed.style.top = "calc(5% - 0px)";
 logoEmbed.style.left = "calc(5% - 0px)";
@@ -234,7 +234,7 @@ window.onload = function () {
 
 
 const logoICD = document.createElement("embed");
-logoICD.src = "./assets/ICD-LOGO.png";
+logoICD.src = "./public/assets/ICD-LOGO.png";
 logoICD.style.position = "absolute";
 logoICD.style.top = "calc(95% - 0px)";
 logoICD.style.left = "calc(1% - 0px)";
@@ -282,7 +282,7 @@ uni.style.fontFamily = "Montserrat, Arial, sans-serif";
 uni.style.fontWeight = 500;
 
 const logoManual = document.createElement("embed");
-logoManual.src = "./assets/manual v2.svg";
+logoManual.src = "./public/assets/manual v2.svg";
 logoManual.style.position = "center";
 logoManual.style.top = "calc(18% - 0px)";
 logoManual.style.left = "calc(23.5% - 0px)";
@@ -373,7 +373,7 @@ manualDiv.style.left = "calc(13% - 0px)";
 manualDiv.style.width = "70%";
 manualDiv.style.height = "75%";
 manualDiv.style.backgroundColor = "white";
-manualDiv.innerHTML = "<img src='./assets/manual v2.svg' style='width: 90%; height: auto;' />";
+manualDiv.innerHTML = "<img src='./public/assets/manual v2.svg' style='width: 90%; height: auto;' />";
 threejsContainer.appendChild(manualDiv);
 
 let manualVisible = false;
