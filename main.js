@@ -1,15 +1,15 @@
 //IMPORT MODULES
 import "./style.css";
 import * as THREE from "/node_modules/three";
-import { OrbitControls } from "/node_modules/three/addons/controls/OrbitControls.js";
-import { TransformControls } from "/node_modules/three/addons/controls/TransformControls.js";
-import { STLExporter } from "/node_modules/three/addons/exporters/STLExporter.js";
+import { OrbitControls } from "three/addons/controls/OrbitControls.js";
+import { TransformControls } from "three/addons/controls/TransformControls.js";
+import { STLExporter } from "three/addons/exporters/STLExporter.js";
 import GUI from "lil-gui";
-// import { LoopSubdivision } from "./LoopSubdivision.js";
+import { LoopSubdivision } from "./LoopSubdivision.js";
 import { CSG } from "./THREE-CSGMesh/dist/client/CSGMesh.js";
-import { FontLoader } from '/node_modules/three/addons/loaders/FontLoader.js';
-import { TextGeometry } from '/node_modules/three/addons/geometries/TextGeometry.js';
-// import { OBB } from 'three/addons/math/OBB.js';
+import { FontLoader } from 'three/addons/loaders/FontLoader.js';
+import { TextGeometry } from 'three/addons/geometries/TextGeometry.js';
+import { OBB } from 'three/addons/math/OBB.js';
 
 //CONSTANT & VARIABLES
 
