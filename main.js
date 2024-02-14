@@ -567,7 +567,7 @@ function main() {
 
 
 function generatorStarting() {
-  alert("HALLO ZUSAMMEN")
+  
   console.log(scene);
   legCountNr = parameters.supportCount;
   tableHeightNr = parameters.elevation;
